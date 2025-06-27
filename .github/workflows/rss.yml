@@ -2,7 +2,7 @@ name: Generate RSS Feed
 
 on:
   schedule:
-    - cron: '0 21 * * *'  # JST 6:00AM (UTCで21:00前日)
+    - cron: '0 21 * * *'  # JST翌朝6時
   workflow_dispatch:
 
 jobs:
